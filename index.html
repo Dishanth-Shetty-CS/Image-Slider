@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- viewport with intial scale 1.0 to make the webpage responsive for all the devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS to change the appearance of the webpage -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome icons (used in next / previous buttons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Poppins font used for the h1 tag-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <!-- Favicon means tab icon -->
+    <link rel="shortcut icon" href="gallery.png" type="image/x-icon">
+
+    <!-- Page title for the website -->
+    <title>Dynamic Image Slider | 3-Second Auto-Slide</title>
+</head>
+
+<body>
+    <!-- Page title on top of the image container-->
+    <h1>Dynamic Image Slider</h1>
+
+    <!-- Image displaying container -->
+    <div class="image_container">
+        <!-- Image are displayed here at the time of next/prev button click or auto delay 3sec -->
+        <img id="image_slider" alt="image_slider" width="73%">
+    </div>
+
+    <!-- Buttons are used to manually navigate to each images with < and > symbols in font awesome icons online-->
+    <div class="action_btns">
+        <button type="button" id="previous_img"><i class="fas fa-chevron-left"></i></button>
+        <button type="button" id="next_img"><i class="fas fa-chevron-right"></i></button>
+    </div>
+</body>
+
+<!-- External javaScript file to handle image behaviors -->
+<script src="script.js"></script>
+
+</html>

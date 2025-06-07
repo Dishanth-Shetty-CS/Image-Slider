@@ -1,0 +1,101 @@
+/* Appying CSS for full screen layout and center the every html elements and background image with linear-gradient effect */
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)),url('image-slider-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Applying CSS for "h1" tag to change its color and text-size */
+h1 {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+
+/* Applying CSS for the "image_container" class to change its margin from bottom,position,alignment,width and height etc. */
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+    width: 60%;
+}
+
+/* Applying CSS for "img" tag to change its width,height and shadow of the image etc. */
+img {
+    width: 73%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px black;
+    cursor: pointer;
+}
+
+/* Applying CSS for the "action_btns" class to change its position,width,alignment etc. */
+.action_btns {
+    position: fixed;
+    top: 52%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Applying CSS for the "action_buttons" to change its bgcolor,text-size etc. */
+.action_btns button {
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #1E40AF;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Applying CSS for the "action_btns -> button:hover" at that time to change its bgcolor,box-shadow and transition for smoothness  */
+.action_btns button:hover {
+    background-color: #1E3A8A;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px #1E40AF;
+}
+
+/* @media queries to make the webpages more responsive and it is applicable for all the devices upto : 768px width */
+@media screen and (max-width: 768px) {
+    h1 {
+        /* Applying CSS for "h1" tag to change the text-size of the h1 tag */
+        font-size: 28px;
+    }
+
+    /* Applying CSS for "image_container" class to change the width of the image container */
+    .image_container {
+        width: 90%;
+    }
+
+    /* Applying CSS for "img" tag to change the width of the image */
+    img {
+        width: 90%;
+    }
+
+    /* Applying CSS for "action_btns" class to place the action buttons in the correct position */
+    .action_btns {
+        top: 60%;
+    }
+
+    /* Applying CSS for "action_btns -> button" to change the action button's text-size and its padding(left and right) */
+    .action_btns button {
+        font-size: 20px;
+        padding: 8px 16px;
+    }
+}
