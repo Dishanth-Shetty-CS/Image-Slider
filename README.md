@@ -16,4 +16,4 @@ Step 6: Use the "<" button to view the previous image and the ">" button to see 
 
 Step 7: When the image reaches the last index of the array, it will automatically loop back to the first index of the array.
 
-Please Note: There are 10 images in total. It may take some time to load all the images, so please be patient.
+**Please Note**: There are 10 images in total. It may take some time to load all the images, so please be patient.
