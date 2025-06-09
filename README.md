@@ -1,4 +1,4 @@
-# image-slider
+# Image Slider Instructions:
 
 **Step 1:** Unzip the folder.
 
@@ -17,3 +17,6 @@ After that, the images will automatically change every 3 seconds (`3000` millise
 **Step 7:** When the image reaches the last index of the array, it will automatically loop back to the first index of the array.
 
 **Please Note:** There are 10 images in total. It may take some time to load all the images, so please be patient.
+
+**Important Note:** An internet connection is required to display the `<` and `>` navigation icons because they are loaded from an online icon library.  
+The icons will not appear if you open the project offline.
