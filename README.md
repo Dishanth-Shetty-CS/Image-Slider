@@ -18,5 +18,4 @@ After that, the images will automatically change every 3 seconds (`3000` millise
 
 **Please Note:** There are 10 images in total. It may take some time to load all the images, so please be patient.
 
-**Important Note:** An internet connection is required to display the `<` and `>` navigation icons because they are loaded from an online icon library.  
-The icons will not appear if you open the project offline.
+**Important Note:** An internet connection is required to display the `<` and `>` navigation icons because they are loaded from an online icon library. The icons will not appear if you open the project offline.
